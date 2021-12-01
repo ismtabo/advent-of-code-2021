@@ -2,7 +2,8 @@
 
 Repository of solutions for the [Advent of Code 2021][4] done by [ismtabo][1]
 
-As last year the language I will use Typescript with [Deno][2]. Check the repository of the [Advent of Code 2020][9].
+As last year the language I will use Typescript with [Deno][2]. Check the
+repository of the [Advent of Code 2020][9].
 
 ## Usage
 
@@ -34,7 +35,6 @@ $ deno run -A --unstable src/cli/mod.ts -h
     run      - Run day solution
     run-all  - Run multiple day solution
     new      - Create new day solution folder skeleton
-
 ```
 
 ### Run a day solution
@@ -61,7 +61,6 @@ $ deno run -A --unstable src/cli/mod.ts run -h
     -f, --file       <file:string>    - Input file. If missing, the day input file is used instead.
     --sample                          - Run day using sample input instead of day input file.        (conflicts: file)
     --format         <format:string>  - Output format.                                               (Default: "plain")
-
 ```
 
 Also, to run all the solutions you can use `run-all` sub-command:
@@ -84,36 +83,37 @@ $ deno run -A --unstable src/cli/mod.ts run-all -h
     -t, --time                        - Show spent time
     --sample                          - Run day using sample input instead of day input file.
     --format         <format:string>  - Output format.                                              (Default: "plain")
-
 ```
 
 ### Test day solutions
 
-Some of the day solutions have unit tests. To run them use [deno built-in test runner][5]:
+Some of the day solutions have unit tests. To run them use
+[deno built-in test runner][5]:
 
 ```
 $ deno test [OPTIONS] [file]
-
 ```
 
 Some of the test need `--allow-read` to read the sample inputs of its day.
 
 ### Bundle AOC 2021 solutions
 
-Using [deno built-in bundler][8], you can bundle the problems module into a js module:
+Using [deno built-in bundler][8], you can bundle the problems module into a js
+module:
 
 ```
 $ deno bundle [OPTIONS] <source_file> [out_file]
-
 ```
 
-To bundle the solutions module the `<source_file>` need to be `src/problems/mod.ts`.
+To bundle the solutions module the `<source_file>` need to be
+`src/problems/mod.ts`.
 
 ## Repository content
 
 The source code of the repository is inside the `src` path:
 
 ### Folder
+
 ```
 / src
 ├- app: TBD
@@ -130,6 +130,7 @@ The source code of the repository is inside the `src` path:
 ├- type.d.ts: Types used in the cli tool
 └- [...]: other stuff
 ```
+
 ### Day solution structure
 
 Each day solution has the following structure:
@@ -149,7 +150,9 @@ Each day solution has the following structure:
 └- [...]: other stuff
 ```
 
-The main module exports two functions `main` and `preprocess` to run the solution parts and preprocess the input respectively. Each part module exports a function `partXxx` with its name in addition to other possible issues.
+The main module exports two functions `main` and `preprocess` to run the
+solution parts and preprocess the input respectively. Each part module exports a
+function `partXxx` with its name in addition to other possible issues.
 
 ## Built with
 
@@ -163,7 +166,8 @@ The main module exports two functions `main` and `preprocess` to run the solutio
 
 ## License
 
-This repository is under MIT License - look up [LICENSE](./LICENSE) for more details
+This repository is under MIT License - look up [LICENSE](./LICENSE) for more
+details
 
 [1]: https://github.com/ismtabo
 [2]: https://deno.land/
@@ -173,4 +177,4 @@ This repository is under MIT License - look up [LICENSE](./LICENSE) for more det
 [6]: https://www.typescriptlang.org/
 [7]: https://cliffy.io/
 [8]: https://deno.land/manual@v1.6.0/tools/bundler
-[9]: https://github.com/ismtabo/advent-of-code-2021
+[9]: https://github.com/ismtabo/advent-of-code-2020

@@ -6,7 +6,7 @@ try {
   await new Command()
     .name("aoc2021")
     .version("0.1.0")
-    .description("Solutions for Advent of Code 2020. https://adventofcode.com/")
+    .description("Solutions for Advent of Code 2021. https://adventofcode.com/")
     .throwErrors()
     .command(
       "run",
