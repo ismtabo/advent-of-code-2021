@@ -1,7 +1,7 @@
 declare enum Format {
-  CSV = "csv",
-  JSON = "json",
-  PLAIN = "plain",
+  csv = "csv",
+  json = "json",
+  plain = "plain",
 }
 
 export interface RunOptions {
