@@ -1,5 +1,7 @@
 # Advent of code 2021
 
+![](https://img.shields.io/badge/day%20📅-4-blue)	![](https://img.shields.io/badge/stars%20⭐-4-yellow) ![](https://img.shields.io/badge/days%20completed-4-red)
+
 Repository of solutions for the [Advent of Code 2021][4] done by [ismtabo][1]
 
 As last year the language I will use Typescript with [Deno][2]. Check the
