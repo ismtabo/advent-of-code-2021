@@ -15,12 +15,12 @@
         "run",
         "--unstable",
         "--inspect-brk",
-        "--allow-all",
+        "--allow-all"
       ],
       "args": [
         "run",
         "-d4",
-        "-p2",
+        "-p2"
         // "--sample",
         // "--file=src/solutions/day10/sample_1.txt"
       ],
@@ -37,10 +37,10 @@
       "runtimeArgs": [
         "test",
         "--inspect-brk=127.0.0.1:9229",
-        "--allow-all",
+        "--allow-all"
         // "--filter \"Day 18\""
       ],
       "attachSimplePort": 9229
-    },
+    }
   ]
 }

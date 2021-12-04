@@ -35,7 +35,7 @@ export function readDayInput(day: number) {
   return Deno.readTextFileSync(daySampleInput);
 }
 
-export async function loadSolutionsModules(): Promise<Solutions> {
+export function loadSolutionsModules(): Promise<Solutions> {
   return import(SOLUTIONS_MODULE);
 }
 

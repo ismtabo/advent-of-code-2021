@@ -18,4 +18,4 @@ interface PositionAction {
 }
 
 export type Action = DepthAction | PositionAction;
-export type Dispatch<S = any, A = Action> = (state: S, action: A) => S;
+export type Dispatch<S = unknown, A = Action> = (state: S, action: A) => S;
