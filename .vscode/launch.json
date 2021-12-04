@@ -19,9 +19,9 @@
       ],
       "args": [
         "run",
-        "-d3",
+        "-d4",
         "-p2",
-        "--sample",
+        // "--sample",
         // "--file=src/solutions/day10/sample_1.txt"
       ],
       "attachSimplePort": 9229,

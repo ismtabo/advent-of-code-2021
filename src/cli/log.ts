@@ -14,7 +14,7 @@ function logResult(result: Result, prefix = "") {
   } else {
     console.log(prefix + `Result: ${result.result}`);
     if (result.time != null) {
-      console.log(prefix + `Spent time: ${result.time}`);
+      console.log(prefix + `Spent time (ms): ${result.time}`);
     }
   }
 }
