@@ -1,8 +1,8 @@
 # Advent of code 2021
 
-![](https://img.shields.io/badge/day%20📅-9-blue)
-![](https://img.shields.io/badge/stars%20⭐-15-yellow)
-![](https://img.shields.io/badge/days%20completed-7-red)
+![](https://img.shields.io/badge/day%20📅-10-blue)
+![](https://img.shields.io/badge/stars%20⭐-18-yellow)
+![](https://img.shields.io/badge/days%20completed-9-red)
 
 Repository of solutions for the [Advent of Code 2021][4] done by [ismtabo][1]
 
