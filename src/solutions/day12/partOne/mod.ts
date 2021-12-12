@@ -64,8 +64,8 @@ export function findAllPaths(
     }
     const nextNodes = state.get(node)!
       .filter((other) => nextNodesPredicate(other, path.push(node)));
-    pending = pending.concat(
-      nextNodes.map((other) => Step(other, path.push(node))),
+    pending = pending.unshift(
+      ...nextNodes.map((other) => Step(other, path.push(node))),
     );
   }
   return paths;
