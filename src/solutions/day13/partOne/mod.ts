@@ -34,7 +34,7 @@ export function foldX(state: State, value: number): State {
         if (x < value) {
           return { x, y };
         }
-        return { x: x - (x - value) * 2, y };
+        return { x: value - (x - value), y };
       })
       .map((point) => compress(point)),
   );
@@ -48,7 +48,7 @@ export function foldY(state: State, value: number): State {
         if (y < value) {
           return { x, y };
         }
-        return { x, y: y - (y - value) * 2 };
+        return { x, y: value - (y - value) };
       })
       .map((point) => compress(point)),
   );
