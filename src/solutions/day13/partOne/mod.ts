@@ -77,12 +77,12 @@ export function log(state: State): State {
         .join("")
     )
     .join("\n");
-  console.log(str, "\n");
+  console.error(str, "\n");
   return state;
 }
 
 export function partOne(input: Input) {
   let state = initState(input.points);
-  state = reduceFolds(state, input.folds.slice(0, 1));
+  state = dispatchFold(state, input.folds[0]);
   return state.count();
 }
