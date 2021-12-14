@@ -1,3 +1,6 @@
-export function partTwo(input: any) {
-  return NaN;
+import { partOne } from "../partOne/mod.ts";
+import { Input } from "../types.d.ts";
+
+export function partTwo(input: Input) {
+  return partOne(input, 40);
 }

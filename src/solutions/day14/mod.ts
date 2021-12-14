@@ -2,9 +2,9 @@ import { partOne } from "./partOne/mod.ts";
 import { partTwo } from "./partTwo/mod.ts";
 
 export function preprocess(text: string) {
-  const [protein, rules] = text.split("\n\n");
+  const [polymers, rules] = text.split("\n\n");
   return {
-    protein: protein.trim(),
+    polymers: polymers.trim(),
     rules: Array.from(rules.trim().matchAll(/([A-Z]{2})\s->\s([A-Z])/g))
       .map(([_, source, target]) => ({ source, target })),
   };

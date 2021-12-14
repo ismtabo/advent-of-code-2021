@@ -4,6 +4,6 @@ export interface Rule {
 }
 
 export interface Input {
-  protein: string;
+  polymers: string;
   rules: Rule[];
 }
