@@ -19,11 +19,10 @@
       ],
       "args": [
         "run",
-        "-d14",
+        "-d15",
         "-p2",
-        "--sample",
-        // "--file=src/solutions/day11/sample-1.txt"
-        // "--file=src/solutions/day8/sample-1.txt"
+        // "--sample",
+        "--file=src/solutions/day15/sample-1.txt"
       ],
       "attachSimplePort": 9229,
       "outputCapture": "std"
