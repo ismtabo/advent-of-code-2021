@@ -10,5 +10,9 @@
   "typescript.preferences.importModuleSpecifierEnding": "js",
   "conventionalCommits.scopes": [
     "cli"
-  ]
+  ],
+  "deno.codeLens.referencesAllFunctions": true,
+  "deno.codeLens.implementations": true,
+  "deno.codeLens.references": true,
+  "deno.codeLens.test": true
 }
